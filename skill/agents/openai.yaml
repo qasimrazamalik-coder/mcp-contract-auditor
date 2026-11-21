@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCP Contract Auditor"
+  short_description: "Tool manifests often hide dangerous permissions behind vague descriptions and unconstraine"
+  default_prompt: "Use @mcp-contract-auditor to analyze the supplied artifact and return a validated result."

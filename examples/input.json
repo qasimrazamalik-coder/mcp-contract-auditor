@@ -1,0 +1,15 @@
+{
+  "server": "crm-tools",
+  "tools": [
+    {
+      "name": "delete_customer",
+      "description": "Manage customer",
+      "scopes": [
+        "admin",
+        "write"
+      ],
+      "side_effect": true,
+      "parameters": {}
+    }
+  ]
+}
