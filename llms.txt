@@ -1,0 +1,18 @@
+# MCP Contract Auditor
+
+> Audit MCP tool manifests for unsafe scopes, ambiguous side effects, missing parameter constraints, secret exposure and confirmation boundaries. Use when reviewing or publishing MCP servers, tool schemas, connectors, or agent tool contracts.
+
+Canonical repository: https://github.com/qasimrazamalik-coder/mcp-contract-auditor
+License: MIT
+Primary instructions: skill/SKILL.md
+Installation: docs/INSTALLATION.md
+Safety guardrails: docs/GUARDRAILS.md
+Security policy: SECURITY.md
+Example input: examples/input.json
+
+## Supported runtimes
+Claude Code, Codex, ChatGPT, Gemini, Grok, MCP-compatible agents, and custom agent runtimes.
+
+## Usage
+Run: python skill/scripts/run.py examples/input.json
+Test: pytest -q
